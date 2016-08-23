@@ -1,4 +1,5 @@
 '''
+(Edited by Matt E Waldman on 8/23/16)
 DESCRIPTION:
 Simple program that prints out a story created through collaboration.
 Students add a line within the story() method.
@@ -86,13 +87,13 @@ def rand_adj():
     Returns an adjective String which can be inserted into a line.
     (Added by Hannah S.)
     '''
-    adjs = ["vicious",
-            "larger-than-life",
-            "smelly",
-            "tall",
-            "boring",
-            "cute",
-            "pleasant"
+    adjs = ["gigantic",
+            "malnourished",
+            "puny",
+            "insignificant",
+            "radical",
+            "angry",
+            "depressed"
             ]
             
     return rc(adjs)
@@ -150,16 +151,16 @@ def rand_verb():
     Returns a past-tense transitive verb phrase String from a list, to be used in a line.
     (Added by Hannah S.)
     '''
-    verbs = ["vitiated the natural development of",
-             "dissillusioned",
-             "encouraged",
-             "avoided",
-             "snuggled",
-             "tripped and fell on",
-             "lectured about",
-             "pick-pocketed",
-             "sang a moving, tragic ballad about",
-             "set fire to"
+    verbs = ["consumed",
+             "obliterated",
+             "cooked",
+             "toasted",
+             "cuddled",
+             "touched",
+             "kissed",
+             "ate",
+             "read about",
+             ""
              ]
 
     return rc(verbs)
@@ -169,14 +170,16 @@ def rand_classmem():
     Returns a classmate's name as a String.
     (Added by Hannah S.)
     '''
-    names = ["Hannah",
-             "Dr. Liu",
-             "Dr. Wilson",
-             "Dr. Ruby",
-             "Mr. Banerjee",
-             "Dr. Park",
-             "Dr. Auernheimer",
-             "Dr. Li"
+    names = ["Matt",
+             "Eric",
+             "Nick",
+             "Alfred",
+             "Grace",
+             "Vartan",
+             "Kelsey",
+             "Joseph",
+             "Francisco",
+             "Harambe"
              ]
     return rc(names)
 
